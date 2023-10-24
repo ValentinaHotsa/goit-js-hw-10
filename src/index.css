@@ -1,0 +1,86 @@
+body {
+    margin: 30px;
+    background-image: url('/src/images/1626949538_9-kartinkin-com-p-krasivii-fon-s-kotikami-krasivo-9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+.is-hidden {
+    visibility: hidden;
+}
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 15px;
+
+}
+.container-img{
+width: 500px;
+margin: 30px;
+
+}
+.cat-info {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+    
+}
+.info-header{
+font-size: 50px;
+color: cornflowerblue;
+
+}
+.info-descr{
+    font-size: 20px;
+}
+.info-temp{
+    font-size: 20px;
+}
+
+.breed-select{
+    width: 500px;
+   
+  background-color: azure;
+  color: rgb(53, 96, 176);
+  font-size: 30px;
+margin: auto;
+text-align: center;
+
+}
+.loader {
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+padding: 7px;
+
+}
